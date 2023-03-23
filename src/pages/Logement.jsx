@@ -1,11 +1,19 @@
-// Logement.jsx
-import React from 'react';
+import { useParams } from 'react-router-dom';
+import logements from '../datas/logements.json';
+
 
 const Logement = () => {
+  const {logementId} = useParams();
+ 
+  const logement = logements.find((logement) => logement.id === logementId);
+
   return (
-    <div>
-      <h1>Logement Page</h1>
-      <p>This is the Logement page</p>
+    <div className="logement-details">
+      <h2>{logement.title}</h2>
+      <img src={logement.cover} alt={logement.title} height="200px" width="200px"/>
+      <p>{logement.description}</p>
+      <p>Prix : {logement.price} €</p>
+      <p>Surface : {logement.surface} m²</p>
     </div>
   );
 };
