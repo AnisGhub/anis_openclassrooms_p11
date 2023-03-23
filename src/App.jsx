@@ -5,16 +5,20 @@ import Apropos from './pages/Apropos';
 import './styles/app.css';
 import Error from './pages/Error';
 import Logement from './pages/Logement';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/apropos" element={<Apropos />} />
-        <Route path="/logement/:logementId" element={<Logement />} />
-        <Route path='*' element={<Error />} />
-      </Routes>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/apropos" element={<Apropos />} />
+            <Route path="/logement/:logementId" element={<Logement />} />
+            <Route path='*' element={<Error />} />
+        </Routes>
+        <Footer />
     </BrowserRouter>
   );
 }
