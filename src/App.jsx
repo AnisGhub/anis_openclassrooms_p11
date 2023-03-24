@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-      <BrowserRouter>
+      <BrowserRouter basename="/anis_openclassrooms_p11">
         <div className='container'> 
           <Header />
           <Routes>
