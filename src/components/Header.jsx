@@ -1,13 +1,18 @@
 import Navigation from './Navigation';
-import '../styles/layout.css';
+import logo from '../assets/logo_kasa.png';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <header>
-      <h1>Mon site web</h1>
+    <header className='header'>
+      <div className='logo'>
+        <Link to="/">
+          <img className='logo__img' src={logo} alt="" />
+        </Link>
+      </div>
       <Navigation />
     </header>
-  );
-}
-
-export default Header;
+    );
+  }
+  
+  export default Header;

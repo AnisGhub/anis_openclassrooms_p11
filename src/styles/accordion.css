@@ -1,0 +1,28 @@
+/* accordion */
+.accordion__item{
+    margin-bottom: 33px;
+    background: #F7F7F7;
+    border-radius: 5px;
+}
+
+.accordion__header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FF6060;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #fff;
+}
+
+.accordion__arrow{
+
+}
+
+.accordion__content{
+    padding: 20px;
+    color: #FF6060;
+    font-weight: 400;
+    font-size: 24px; 
+}

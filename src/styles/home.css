@@ -1,0 +1,11 @@
+/* Logement List */
+
+.logements-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 56px 50px 0 50px;
+    background: #F7F7F7;
+    border-radius: 25px;
+}
+
