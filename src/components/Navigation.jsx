@@ -1,14 +1,14 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
   return (
     <nav className='navigation'>
       <ul className='menu'>
         <li className='menu__link'>
-          <Link to="/">Accueil</Link>
+          <NavLink to="/" className={({ isActive }) => (isActive ? 'menu__link--active' : 'menu__link--inactive')} >Accueil</NavLink>
         </li>
         <li className='menu__link'>
-          <Link to="/apropos">A propos</Link>
+          <NavLink  to="/apropos" className={({ isActive }) => (isActive ? 'menu__link--active' : 'menu__link--inactive')} >A propos</NavLink>
         </li>
       </ul>
     </nav>
