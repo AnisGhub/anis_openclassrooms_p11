@@ -49,7 +49,7 @@ a, a:hover, a:active, a:visited{
     color: #FF6060;
 }
 
-.navigation .menu__link:active{
+.navigation .menu__link--active{
     text-decoration: underline;
 }
 
