@@ -7,5 +7,14 @@
     padding: 56px 50px 0 50px;
     background: #F7F7F7;
     border-radius: 25px;
+    margin-bottom: 43px;
 }
 
+/* smartphones */
+@media screen and (max-width: 1024px){
+   .logements-list{
+    flex-direction: column;
+    padding: 0px;
+    background: none;
+   }
+}

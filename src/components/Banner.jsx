@@ -6,7 +6,7 @@ const Banner = ({ title, image }) => {
     <div className='banner'>
       <img className='banner__img' alt='banner' src={image} />
       <div className='banner__bg'></div>
-      {title && <p className='banner__title'>{title}</p>}
+      {title && <h1 className='banner__title'>{title}</h1>}
     </div>
   );
 }

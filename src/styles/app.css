@@ -14,12 +14,18 @@ body {
 
 .container{
     max-width: 1240px;
+    padding: 0 20px;
     margin: 0 auto;
 }
 
 a, a:hover, a:active, a:visited{
     color: #000;
     text-decoration: none;
+}
+
+/* fix footer */
+.homepage,.aproposPage, .logement-details,.errorPage{
+    min-height: calc(100vh - 72px - 209px);
 }
 
 /* header */
@@ -75,4 +81,22 @@ a, a:hover, a:active, a:visited{
     margin-top: 28px;
     font-weight: 500;
     font-size: 24px;
+}
+
+
+/* smartphones */
+@media screen and (max-width: 1024px){
+    .header .logo__img{
+        width: 145px;
+        height: 47px;
+    }
+
+    .navigation .menu{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .navigation .menu__link:nth-child(2){
+        margin-left: 10px;
+    }
+   
 }

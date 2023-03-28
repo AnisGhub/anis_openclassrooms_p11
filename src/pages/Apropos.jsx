@@ -25,7 +25,7 @@ const datas = [
 
 const Apropos = () => {
   return (
-    <div>
+    <div className='aproposPage'>
       <Banner image={bannerImg} />
       <div className="accordion">
         {datas.map((data, index) => (

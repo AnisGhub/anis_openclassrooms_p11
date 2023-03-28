@@ -1,0 +1,40 @@
+.errorPage{
+    text-align: center;
+    font-family: 'Montserrat';
+    color: #FF6060;
+}
+.errorPage h1{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 288px;
+}
+
+.errorPage p{
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.errorPage a{
+    display: block;
+    margin-top: 182px;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration-line: underline;
+    color: #FF6060;
+}
+
+/* smartphones */
+@media screen and (max-width: 1024px){
+    .errorPage h1{
+        font-weight: 700;
+        font-size: 96px;
+    }
+    .errorPage p{
+        font-weight: 500;
+        font-size: 18px;
+    }
+    .errorPage a{
+        font-weight: 500;
+        font-size: 14px;
+    }
+}

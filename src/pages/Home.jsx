@@ -45,7 +45,7 @@ const Home = () => {
   }
   
   return (
-    <div>
+    <div className='homePage'>
       <Banner title="Chez vous, partout et ailleurs" image={bannerImg} />
       <div className="logements-list">
         {logements.map((logement) => (
