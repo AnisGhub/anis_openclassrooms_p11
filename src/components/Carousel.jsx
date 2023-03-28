@@ -18,6 +18,14 @@ const Carousel = ({ pictures }) => {
     );
   };
 
+  if (pictures.length <= 1) {
+    return (
+      <div className="carousel">
+        <img className="carousel__img" src={pictures[0]} alt="" />
+      </div>
+    );
+  }
+
   return (
     <div className="carousel">
       <button className="carousel__prev" onClick={handleClickPrev}>
