@@ -1,0 +1,109 @@
+.logement-details{
+    color: #FF6060;
+}
+
+.logement-details .containerInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.logement-details__title h2{
+    font-weight: 500;
+    font-size: 36px;
+}
+.logement-details__title p{
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.logement-details__tags{
+    display: flex;
+}
+
+.logement-details__tags .tag{
+    margin-right: 10px;
+    background-color: #FF6060;
+    color: #fff;
+    text-align: center;
+    padding: 6px 15px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 14px; 
+    
+}
+
+.logement-details__profile{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.logement-details__profileTitle{
+    text-align: right;
+    margin-right: 10px;
+}
+.logement-details__profile img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.accordion--logement {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .accordion--logement .accordion__item {
+    flex: 0 0 45%; /* ajuster la largeur en fonction de la taille souhaitée */
+  }
+  
+/* smartphones */
+@media screen and (max-width: 1024px){
+    .containerInfo{
+        flex-direction: column;
+    }
+    .logement-details__infoProfile{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+   
+    .logement-details__title h2{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .logement-details__title p{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .logement-details__tags{
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+    .logement-details__tags .tag{
+        margin-bottom: 5px;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .logement-details__profileTitle{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .logement-details__stars svg{
+        width: 18px;
+        height: 18px;
+    }
+    .accordion--logement{
+        flex-direction: column;
+    }
+    .accordion__item{
+        width: 100%;
+    }
+}
