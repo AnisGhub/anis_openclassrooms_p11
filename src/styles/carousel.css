@@ -39,3 +39,18 @@
     font-size: 18px;
     color: #fff;
 }
+
+/* smartphones */
+@media screen and (max-width: 1024px){
+    .carousel{
+        height: 255px;
+    }
+    .carousel__prev img, .carousel__next img{
+        height: 24px;
+        width: 24px;
+    }
+    .carousel__indicators{
+        display: none;
+    }
+}
+
