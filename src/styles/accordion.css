@@ -8,17 +8,22 @@
 .accordion__header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #FF6060;
     border-radius: 5px;
-    padding: 10px;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.accordion__header h3{
     font-weight: 500;
     font-size: 24px;
-    color: #fff;
 }
 
 /* .accordion__arrow{} */
 
 .accordion__content{
+    margin-top: 10px;
     padding: 20px;
     color: #FF6060;
     font-weight: 400;
@@ -29,6 +34,9 @@
 @media screen and (max-width: 1024px){
     .accordion__header{
         align-items: center;
+        
+    }
+    .accordion__header h3{
         font-weight: 500;
         font-size: 13px;
     }

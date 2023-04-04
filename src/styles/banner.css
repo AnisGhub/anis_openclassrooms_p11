@@ -30,10 +30,13 @@
     font-weight: 500;
     font-size: 48px;
 }
+.banner__title span{
+    display: inline-block;
+}
 
 /* smartphones */
 @media screen and (max-width: 1024px){
-    .banner{
+    .homePage .banner{
         height: 111px;
     }
     .banner__title{
@@ -42,5 +45,8 @@
         color: #fff;
         font-size: 24px;
         font-weight: 500;
+    }
+    .banner__title span{
+        display: block;
     }
 }

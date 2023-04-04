@@ -9,7 +9,7 @@
     font-size: 288px;
 }
 
-.errorPage p{
+.errorPage > p{
     font-weight: 500;
     font-size: 36px;
 }
@@ -21,6 +21,11 @@
     font-size: 18px;
     text-decoration-line: underline;
     color: #FF6060;
+}
+.errorPage__return{
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 50px ;
 }
 
 /* smartphones */
