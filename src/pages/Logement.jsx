@@ -4,12 +4,19 @@ import Accordion from '../components/Accordion';
 import Carousel from '../components/Carousel';
 import '../styles/logement.css';
 
+
+/**
+ * Logement component displays the details of a specific logement.
+ */
 const Logement = () => {
   const { logementId } = useParams();
   const [logement, setLogement] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const navigate = useNavigate();
 
+  /**
+   * Fetches the logement data from cache or API when the component mounts or when the logementId changes.
+   */
   useEffect(() => {
     const cacheKey = 'logementsData';
     const cachedLogements = JSON.parse(sessionStorage.getItem(cacheKey)) || [];

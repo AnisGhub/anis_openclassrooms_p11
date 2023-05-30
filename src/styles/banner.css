@@ -39,6 +39,12 @@
     .homePage .banner{
         height: 111px;
     }
+    .banner__img{
+        border-radius: 10px;
+    }
+    .banner__bg{
+        border-radius: 10px;
+    }
     .banner__title{
         top: 35px;
         left: 20px;

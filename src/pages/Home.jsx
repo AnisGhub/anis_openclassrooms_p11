@@ -4,12 +4,20 @@ import Card from '../components/Card';
 import '../styles/home.css';
 import Banner from '../components/Banner';
 
+/**
+ * Home component represents the home page of the application.
+ * It fetches logement data, handles loading and error states, and renders the appropriate content.
+ */
 const Home = () => {
   const [logements, setLogements] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
 
   useEffect(() => {
+    /**
+     * Fetches logement data from the mocked data or session storage.
+     * Caches the data in session storage for future use.
+     */
     const cacheKey = 'logementsData';
     const cachedData = sessionStorage.getItem(cacheKey);
 

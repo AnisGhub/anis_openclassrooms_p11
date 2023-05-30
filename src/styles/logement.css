@@ -79,6 +79,7 @@
     .logement-details__title h2{
         font-size: 18px;
         font-weight: 500;
+        margin-bottom: 5px;
     }
     .logement-details__title p{
         font-size: 14px;
