@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/anis_openclassrooms_p11/static/css/main.ea0d50c3.css",
-    "main.js": "/anis_openclassrooms_p11/static/js/main.499cafdd.js",
+    "main.css": "/anis_openclassrooms_p11/static/css/main.02cdff8e.css",
+    "main.js": "/anis_openclassrooms_p11/static/js/main.f6dcd4be.js",
     "static/media/aproposIMG.jpg": "/anis_openclassrooms_p11/static/media/aproposIMG.c9f0f60d29c9bf698dfa.jpg",
     "static/media/bannerIMG.jpg": "/anis_openclassrooms_p11/static/media/bannerIMG.f4962aebe70eb02c8a7e.jpg",
     "index.html": "/anis_openclassrooms_p11/index.html",
-    "static/media/arrow_close.svg": "/anis_openclassrooms_p11/static/media/arrow_close.2f0d0d49b4f1a949d1f97ae18c664688.svg",
-    "static/media/arrow_next.svg": "/anis_openclassrooms_p11/static/media/arrow_next.f1e62b1c0199eec69b1cddc2e6185135.svg",
-    "static/media/arrow_open.svg": "/anis_openclassrooms_p11/static/media/arrow_open.557045ea3cccdf4a6a60a53481c321e2.svg",
-    "static/media/arrow_prev.svg": "/anis_openclassrooms_p11/static/media/arrow_prev.607671694dda9fcb5aac86d1cd56249b.svg",
-    "main.ea0d50c3.css.map": "/anis_openclassrooms_p11/static/css/main.ea0d50c3.css.map",
-    "main.499cafdd.js.map": "/anis_openclassrooms_p11/static/js/main.499cafdd.js.map"
+    "static/media/arrow_close.svg": "/anis_openclassrooms_p11/static/media/arrow_close.452f0064713296f87ed60d04066ca349.svg",
+    "static/media/arrow_next.svg": "/anis_openclassrooms_p11/static/media/arrow_next.2b39e96e261382a036f8f37dd0ef2d9a.svg",
+    "static/media/arrow_open.svg": "/anis_openclassrooms_p11/static/media/arrow_open.9ffeb82f8a4156e52408a8b6da114a34.svg",
+    "static/media/arrow_prev.svg": "/anis_openclassrooms_p11/static/media/arrow_prev.81296f55627e126a0f8839fc6571b76f.svg",
+    "main.02cdff8e.css.map": "/anis_openclassrooms_p11/static/css/main.02cdff8e.css.map",
+    "main.f6dcd4be.js.map": "/anis_openclassrooms_p11/static/js/main.f6dcd4be.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea0d50c3.css",
-    "static/js/main.499cafdd.js"
+    "static/css/main.02cdff8e.css",
+    "static/js/main.f6dcd4be.js"
   ]
 }
