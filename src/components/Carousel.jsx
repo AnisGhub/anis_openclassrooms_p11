@@ -3,15 +3,29 @@ import '../styles/carousel.css';
 import arrow_prev from '../assets/arrow_prev.svg';
 import arrow_next from '../assets/arrow_next.svg';
 
+/**
+ * Carousel component that displays a slideshow of pictures.
+ *
+ * @component
+ * @param {Object} props - The component props.
+ * @param {string[]} props.pictures - An array of picture URLs.
+ * @returns {JSX.Element} The rendered Carousel component.
+ */
 const Carousel = ({ pictures }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
+  /**
+   * Handles the click event when the previous button is clicked.
+   */
   const handleClickPrev = () => {
     setCurrentIndex((prevIndex) =>
       prevIndex === 0 ? pictures.length - 1 : prevIndex - 1
     );
   };
 
+  /**
+   * Handles the click event when the next button is clicked.
+   */
   const handleClickNext = () => {
     setCurrentIndex((prevIndex) =>
       prevIndex === pictures.length - 1 ? 0 : prevIndex + 1
